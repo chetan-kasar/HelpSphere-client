@@ -17,7 +17,7 @@ const App = () => {
       prompt:prompt
     }
     try {
-      axios.post("http://localhost:5000/", data).then(
+      axios.post("https://help-sphere-server.vercel.app/", data).then(
         response=>{
           setOutput(response.data);
           const updateHistory = [{user:prompt , model:response.data}, ...history];
