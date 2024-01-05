@@ -105,6 +105,12 @@ body{
   color: #FF004D;
 }
 
+.imageSense-footer{
+  font-family: "Bree Serif";
+  color:#8F43EE;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .window{
     height: 75vh;
