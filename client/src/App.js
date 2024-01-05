@@ -69,7 +69,7 @@ const App = () => {
         */}
       </div>
       <div className='footer'>
-        <span className='imageSense-footer'>Try ImageSense</span><br/>
+        <a href="https://image-sense.vercel.app/" className='imageSense-footer'>Try ImageSense</a><br/>
         <span className='copy-right'> &copy; Chetan Kasar </span>
         </div>
     </div>
