@@ -68,7 +68,10 @@ const App = () => {
           })
         */}
       </div>
-      <div className='footer'><span className='copy-right'> &copy; Chetan Kasar </span></div>
+      <div className='footer'>
+        <span className='imageSense-footer'>Try ImageSense</span><br/>
+        <span className='copy-right'> &copy; Chetan Kasar </span>
+        </div>
     </div>
   )
 }
