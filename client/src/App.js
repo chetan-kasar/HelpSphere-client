@@ -37,7 +37,7 @@ const App = () => {
     axios.post("https://help-sphere-server.vercel.app/", data)
       .then(response => {
         setOutput(response.data);
-        setHistory(prev => [{ user: prompt, model: response.data }, ...prev]);
+        
       })
       .catch(error => {
         console.log("Error in request", error);
