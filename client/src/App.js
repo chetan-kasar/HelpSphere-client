@@ -11,13 +11,15 @@ const Response = ({ prompt, output }) => {
     <div className='response'>
       <div className='user'>
         <img src={girl} alt="user" />
-        <p><span style={{ color: "black" }}>User : </span>{prompt}</p>
+        <div>
+          <span style={{ color: "black" }}>User : </span>
+          <p>{prompt}</p>
+        </div>
       </div>
       <div className='bot'>
         <img src={bot} alt="bot" />
         <div>
           <span style={{ color: "black" }}>HelpSphere : </span>
-          {/* ✅ This renders bold, lists, bullet points properly */}
           <ReactMarkdown>{output}</ReactMarkdown>
         </div>
       </div>
