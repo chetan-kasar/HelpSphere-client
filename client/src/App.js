@@ -28,7 +28,7 @@ const Response = ({ prompt, output }) => {
 const App = () => {
   const [prompt, setPrompt] = useState("");
   const [output, setOutput] = useState("");
-  const [history, setHistory] = useState([]);
+  
 
   const handleClick = () => {
     setOutput("Thinking.....");
